@@ -1,0 +1,568 @@
+@font-face {
+    font-family: "sfpro";
+    src: url("../font/1c45e28f8e86cc89876f003b953cc3e9.woff");
+}
+
+@font-face {
+    font-family: "sfpro-bold";
+    src: url("../font/sf-pro-text-bold.woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'sfpro';
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.sectionHeading {
+    font-family: "sfpro-bold";
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.sectionInfo {
+    max-width: 780px;
+    font-size: 17px;
+    line-height: 1.4em;
+    color: #595959;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+
+
+
+/* header styles */
+header {
+    padding: 20px 0;
+}
+
+/* header styles ends */
+
+
+
+/* banner styles */
+.banner {
+    background-image: url(../images/banner-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 0;
+}
+
+.banner .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerLeft,
+.bannerRight {
+    width: 50%;
+}
+
+.bannerLeft {
+    padding-right: 15px;
+}
+
+.bannerRight {
+    padding-left: 15px;
+}
+
+.bannerLeft img {
+    margin-bottom: 20px;
+}
+
+.bannerLeft h1 {
+    font-family: "sfpro-bold";
+    font-size: 80px;
+    color: #fff;
+    line-height: 1.1em;
+    margin-bottom: 25px;
+}
+
+.bannerLeft p {
+    font-size: 38px;
+    color: #fff;
+    margin-bottom: 35px;
+}
+
+.bannerLeft .bannerBtnOne {
+    width: 272px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background-color: #fff;
+    color: #664DE5;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.bannerLeft .bannerBtnTwo {
+    width: 99px;
+    height: 32px;
+    font-size: 12px;
+    color: #664DE5;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerLeft .bannerBtnTwo img {
+    width: 12px;
+    margin-bottom: 0 !important;
+    margin-right: 4px;
+}
+
+
+
+.bannerRight img {
+    width: 100%;
+}
+
+/* banner styles ends */
+
+
+
+/* services styles */
+.services {
+    padding: 60px 0;
+}
+
+
+.serviceWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serviceLeft,
+.serviceRight {
+    width: 50%;
+}
+
+.serviceLeft {
+    padding-right: 15px;
+}
+
+.serviceRight {
+    padding-left: 15px;
+}
+
+.serviceLeft img {
+    width: 100%;
+}
+
+.serviceRight ul li {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.serviceRight ul li img {
+    margin-right: 8px;
+}
+
+/* services styles ends */
+
+
+
+/* info styles */
+.info {
+    padding: 100px 0;
+    padding-bottom: 120px;
+    background-color: hsl(0, 0%, 98%, 0.9);
+    position: relative;
+}
+
+.info .container {
+    position: relative;
+    z-index: 10;
+}
+
+.sectionHeadingOnSm {
+    display: none;
+}
+
+.infoFormWrap {
+    width: 100%;
+    max-width: 778px;
+    padding: 15px 0;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.infoFormWrap h3 {
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+.singleInp {
+    margin-bottom: 40px;
+}
+
+.singleInp label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.singleInp input,
+.singleInp select {
+    width: 100%;
+    height: 48px;
+    border: 1.5px solid #AAAAAA;
+    border-radius: 8px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.singleInp input::placeholder {
+    text-transform: capitalize;
+}
+
+.singleInp span {
+    font-size: 13px;
+    color: #7F7F7F;
+    display: block;
+    margin-top: 10px;
+}
+
+.infoFormWrap form button {
+    width: 100%;
+    height: 48px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    background-color: #664DE5;
+    border-radius: 8px;
+}
+
+.info .shapeRight {
+    position: absolute;
+    top: 250px;
+    right: 0;
+}
+
+.info .shapeLeft {
+    position: absolute;
+    top: 250px;
+    left: 0;
+}
+
+/* info styles ends */
+
+
+
+/* team styles */
+.team img {
+    width: 100%;
+}
+
+.teamSm {
+    display: none;
+}
+
+/* team styles ends */
+
+
+
+
+/* footer styles */
+footer {
+    padding: 20px 0;
+}
+
+.footerSocial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footerSocial img {
+    margin: 0 10px;
+}
+
+footer .copyright {
+    text-align: center;
+    font-size: 15px;
+    color: #8C8C8C;
+}
+
+/* footer styles ends */
+
+
+
+
+@media (max-width: 950px) {
+    .bannerLeft img {
+        width: 200px;
+    }
+
+    .bannerLeft h1 {
+        font-size: 60px;
+    }
+
+    .bannerLeft p {
+        font-size: 28px;
+    }
+
+    .bannerLeft .bannerBtnOne {
+        display: none;
+    }
+
+    .bannerLeft .bannerBtnTwo {
+        display: flex;
+    }
+}
+
+@media (max-width: 900px) {
+    .serviceRight ul li {
+        font-size: 20px;
+    }
+
+    .serviceRight ul li img {
+        width: 20px;
+    }
+}
+
+
+@media (max-width: 750px) {
+    .container {
+        padding: 0 25px;
+    }
+
+    .sectionHeading {
+        font-size: 30px;
+    }
+
+    .sectionInfo {
+        font-size: 14px;
+    }
+
+    .banner {
+        position: relative;
+    }
+
+    .banner .container {
+        justify-content: space-between;
+    }
+
+    .bannerLeft img {
+        width: 110px;
+    }
+
+    .bannerLeft h1 {
+        font-size: 40px;
+    }
+
+    .bannerLeft p {
+        font-size: 18px;
+    }
+
+    .bannerRight {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+
+    .singleInp label {
+        font-size: 14px;
+    }
+
+    .singleInp input,
+    .singleInp select {
+        font-size: 14px;
+    }
+
+    footer .copyright {
+        font-size: 13px;
+    }
+}
+
+
+
+@media (max-width: 520px) {
+    .sectionHeading {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    header img {
+        width: 96px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .banner {
+        padding: 60px 0;
+    }
+
+    .bannerLeft {
+        width: 60%;
+        padding-right: 0;
+    }
+
+    .bannerRight {
+        width: calc(40% + 25px);
+    }
+
+    .bannerLeft img {
+        width: 78px;
+        margin-bottom: 0;
+    }
+
+    .bannerLeft h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .bannerLeft p {
+        font-size: 14px;
+    }
+
+    .bannerLeft .bannerBtnTwo {
+        font-size: 10px;
+    }
+
+
+    .serviceRight ul li {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .serviceRight ul li img {
+        width: 14px;
+    }
+
+    .sectionHeadingOnLg {
+        display: none;
+    }
+
+    .sectionHeadingOnSm {
+        display: block;
+        text-align: start;
+    }
+
+    .infoSm {
+        text-align: start;
+        margin-bottom: 0;
+        color: #000;
+    }
+
+    .infoFormWrap h3 {
+        display: none;
+    }
+
+
+    .teamLg {
+        display: none;
+    }
+
+    .teamSm {
+        display: block;
+    }
+}
+
+
+
+@media (max-width: 390px) {
+    .sectionHeading {
+        font-size: 24px;
+    }
+
+    .sectionInfo {
+        font-size: 13px;
+    }
+
+
+    header img {
+        width: 93px;
+    }
+
+    .bannerLeft img {
+        width: 72px;
+    }
+
+    .bannerLeft h1 {
+        font-size: 28px;
+    }
+
+    .bannerLeft p {
+        font-size: 12px;
+    }
+
+    .bannerLeft .bannerBtnTwo {
+        width: 93px;
+        font-size: 9px;
+    }
+
+
+    .serviceLeft {
+        width: 45%;
+    }
+
+    .serviceRight {
+        width: 55%;
+        padding-left: 0;
+    }
+
+    .serviceRight ul li {
+        font-size: 12px;
+    }
+
+    .serviceRight ul li img {
+        width: 12px;
+    }
+
+
+    .singleInp label {
+        font-size: 13px;
+    }
+
+    .singleInp input,
+    .singleInp select {
+        font-size: 13px;
+    }
+    
+    
+    .footerSocial {
+        margin-bottom: 15px;
+    }
+    footer .copyright {
+        font-size: 9px;
+    }
+
+}
